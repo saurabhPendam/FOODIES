@@ -1,3 +1,12 @@
+body {
+	background-image: url("https://wallpaperaccess.com/full/3692991.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color:#464646;
+}
+
 /* page title styles */
 #page__title {
 	padding-top: 3rem;
