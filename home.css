@@ -1,44 +1,13 @@
-
-.home .home-slider .slide{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap:2rem; 
-    padding-top: 9rem;
+body {
+	background-image: url("https://wallpaperaccess.com/full/3692991.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color:#464646;
 }
 
-.home .home-slider .slide .content{
-    flex:1 1 45rem;
-}
 
-.home .home-slider .slide .image{
-    flex:1 1 45rem;
-}
-
-.home .home-slider .slide .image img{
-    width: 100%;
-}
-
-.home .home-slider .slide .content span{
-    color:var(--green);
-    font-size: 2.5rem;
-}
-
-.home .home-slider .slide .content h3{
-    color:var(--black);
-    font-size: 7rem;
-}
-
-.home .home-slider .slide .content p{
-    color:var(--light-color);
-    font-size: 2.2rem;
-    padding:.5rem 0;
-    line-height: 1.5;
-}
-
-.swiper-pagination-bullet-active{
-    background:var(--green);
-}
 
 /* hero section styles */
 .hero__wrapper {
@@ -74,6 +43,7 @@
 .button__wrapper {
 	text-align: center;
 }
+
 
 @media only screen and (min-width: 768px) {
 	.hero__wrapper {
@@ -333,26 +303,17 @@
 /* End Discount Styles */
 /* EventsMedia Styles */
 .eventsMedia__wrapper {
-	display: flex;
-	gap: 1rem;
+	display: fix;
+	gap: 2rem;
+	padding:2px;
+	width:"500px";
+	max-height:"500px";
 }
-.eventsMedia__1 {
-	position: relative;
-}
-.eventsMedia__1__playButton {
-	display: inline-block;
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
-	max-width: 50px;
-}
+
+
 @media only screen and (min-width: 768px) {
 	.eventsMedia__wrapper {
 		gap: 2rem;
-	}
-	.eventsMedia__1__playButton {
-		max-width: 100px;
 	}
 }
 /* End EventsMedia Styles */
