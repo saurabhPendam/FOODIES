@@ -1,0 +1,127 @@
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Find Meal For Your Ingredients</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+        <link rel = "stylesheet" href = "style.css">
+        </head>
+        <body>
+        
+        <div class = "container">
+            <div class = "meal-wrapper">
+            <div class = "meal-search">
+                <h2 class = "title">Find Meals For Your Ingredients</h2>
+                <blockquote>"Food is not just about sustenance, it's a celebration of flavor, culture, and tradition. Whether you're cooking for yourself, 
+                    your family, or your friends, a well-crafted recipe can transport you to new culinary heights. 
+                    So let's roll up our sleeves, chop some vegetables, and create some delicious memories together."<br>
+                <cite>-- Indian Cuisine --</cite>
+                </blockquote>
+
+                <div class = "meal-search-box">
+                <input type = "text" class = "search-control" placeholder="Enter an ingredient" id = "search-input">
+                <button type = "submit" class = "search-btn btn" id = "search-btn">
+                    <i class = "fas fa-search"></i>
+                </button>
+                </div>
+            </div>
+
+            <div class = "meal-result">
+                <h2 class = "title">Your Search Results:</h2>
+                <div id= "meal">
+                <!-- meal item -->
+                <div class = "meal-item">
+                    <div class = "meal-img">
+                    <img src = "./Food/biryani1.png" alt = "food">
+                    </div>
+                    <div class = "meal-name">
+                    <h3>Biryani</h3>
+                    <button onclick="showRecipe()">Get Recipe</button>
+                        <div id="recipe" style="display: none;">
+                        <h1>Chicken Biryani Recipe</h1>
+                <h2>Ingredients:</h2>
+                <ul>
+                    <li>2 cups basmati rice</li>
+                    <li>1 lb. boneless chicken, cut into small pieces</li>
+                    <li>1 large onion, sliced</li>
+                    <li>2 tbsp. vegetable oil</li>
+                    <li>1 tbsp. ghee</li>
+                    <li>1/2 cup plain yogurt</li>
+                    <li>2 tsp. ginger paste</li>
+                    <li>2 tsp. garlic paste</li>
+                    <li>1 tsp. red chili powder</li>
+                    <li>1 tsp. cumin powder</li>
+                    <li>1 tsp. coriander powder</li>
+                    <li>1/4 tsp. turmeric powder</li>
+                    <li>1/4 tsp. garam masala powder</li>
+                    <li>2 bay leaves</li>
+                    <li>2 cinnamon sticks</li>
+                    <li>4 green cardamom pods</li>
+                    <li>4 cloves</li>
+                    <li>2 cups water</li>
+                    <li>Salt to taste</li>
+                </ul>
+                <h2>Instructions:</h2>
+                <ol>
+                    <li>Wash the rice in cold water and soak it for 30 minutes.</li>
+                    <li>Heat the oil and ghee in a large pot or Dutch oven over medium heat. Add the onion and fry until golden brown. Remove half of the onions and set aside for garnish.</li>
+                    <li>Add the chicken to the pot and cook until browned on all sides.</li>
+                    <li>Add the yogurt, ginger paste, garlic paste, red chili powder, cumin powder, coriander powder, turmeric powder, garam masala powder, bay leaves, cinnamon sticks, green cardamom pods, cloves, and salt to taste. Cook for 2-3 minutes.</li>
+                    <li>Drain the rice and add it to the pot. Stir to coat the rice with the spices.</li>
+                    <li>Add the water and stir gently. Bring to a boil, then cover the pot with a tight-fitting lid and reduce the heat to low. Cook for 15-20 minutes, or until the rice is tender and the liquid has been absorbed.</li>
+                    <li>Remove the pot from heat and let it rest for 5-10 minutes.</li>
+                    <li>Fluff the rice with a fork and transfer it to a serving dish. Garnish with the reserved fried onions and serve hot.</li>
+                </ol>
+                </div>
+                    </div>
+                </div> 
+                <!-- end of meal item -->
+
+                <!--meal item-->
+                <div class = "meal-item">
+                    <div class = "meal-img">
+                    <img src = "./Food/PalakPaneer.png" alt = "food">
+                    </div>
+                    <div class = "meal-name">
+                    <h3>Palak Paneer</h3>
+                    <button onclick="showRecipe()">Get Recipe</button>
+                        <div id="recipe" style="display: none;">
+                        <h2>Palak Paneer Recipe</h2>
+                        <p>Ingredients:</p>
+                        <ul>
+                            <li>1 pound paneer, cut into cubes</li>
+                            <li>2 tablespoons oil</li>
+                            <li>1 onion, chopped</li>
+                            <li>2 cloves garlic, minced</li>
+                            <li>1 tablespoon grated ginger</li>
+                            <li>1 teaspoon ground cumin</li>
+                            <li>1 teaspoon ground coriander</li>
+                            <li>1/2 teaspoon ground turmeric</li>
+                            <li>1/4 teaspoon cayenne pepper</li>
+                            <li>1 can (14.5 ounces) diced tomatoes, drained</li>
+                            <li>1/2 cup heavy cream</li>
+                            <li>1/2 teaspoon salt</li>
+                            <li>1 pound fresh spinach, trimmed and washed</li>
+                        </ul>
+                        <p>Instructions:</p>
+                        <ol>
+                            <li>Heat the oil in a large skillet over medium heat. Add the paneer and fry until golden brown on all sides. Remove from the skillet and set aside.</li>
+                            <li>Add the onion, garlic, and ginger to the same skillet and sauté until the onion is translucent.</li>
+                            <li>Add the cumin, coriander, turmeric, and cayenne pepper to the skillet and cook for 1 minute.</li>
+                            <li>Add the diced tomatoes and their juices to the skillet and stir to combine. Cook for 5 minutes.</li>
+                            <li>Add the heavy cream and salt to the skillet and stir to combine. Cook for 2-3 minutes.</li>
+                            <li>Add the spinach to the skillet and stir to combine. Cook until the spinach has wilted.</li>
+                            <li>Return the paneer to the skillet and stir to combine. Cook for 1-2 minutes.</li>
+                            <li>Serve hot with naan or rice.</li>
+                        </ol>
+                        </div>
+                    </div>
+                </div> 
+                <!--end of the meal item-->
+                </div>
+            </div>
+
+            <script src="./main.js"></script>
+        </body>
+        </html>

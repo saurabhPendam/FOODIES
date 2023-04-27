@@ -45,3 +45,9 @@ AOS.init({
 //     item.setAttribute('data-aos', 'fade-up');
 //   })
 // }
+
+
+function showRecipe() {
+  var recipeDiv = document.getElementById("recipe");
+  recipeDiv.style.display = "block";
+}
