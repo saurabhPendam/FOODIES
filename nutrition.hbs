@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    {{>header}}
+</head>
+
+<body>
+    {{>navbar}}
+    <section id="form" data-aos="fade-down">
+        <div class="container">
+            <h3 class="form__title">
+                Nutritional Information
+            </h3>
+            <div class="form__wrapper">
+                <form action="/search" method="POST" netlify>
+                    <div class="form__group">
+                        <label for="search">Search</label>
+                        <input type="text" id="search" name="search" required>
+                    </div>
+
+                    <button type="submit" class="btn primary-btn">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    {{>footer}}
+    <!-- aos script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- custom script -->
+    <script src="/main.js"></script>
+    <script src="/info.js"></script>
+</body>
+
+</html>
